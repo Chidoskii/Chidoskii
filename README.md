@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Chidoskii
 - 👀 I’m interested in technology and science.
-- 🌱 I’m currently learning how to program.
+- 🌱 I’m currently learning how to program and I want to learn how to use GitHub effectively.
 - 💞️ I’m looking to collaborate on projects in order to grow more as a programmer.
 
 <!---
