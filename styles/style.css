@@ -1,0 +1,84 @@
+html, body {
+  width: 100%;
+  margin: 0;
+  min-height: 100vh;
+  background-color: gray;
+  font-family: 'Acme', sans-serif;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 11pt;
+}
+
+a:hover {
+  color: royalblue;
+}
+
+
+.banner {
+  padding-top: 50px;
+  height: 300px;
+  text-align: center;
+  background-color: aqua;
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 200px;
+  padding-top: 100px;
+  background-color: bisque;
+}
+
+.choice {
+  width: 40%;
+  height: 250px;
+  margin: 25px auto;
+  text-align: center;
+  background-color: purple;
+}
+
+.side-socials {
+  background-color: hotpink;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 375px;
+  left: 10px;
+}
+
+.social-tile {
+  background-color: maroon;
+  text-align: center;
+  margin: 10px 0px;
+  height: 75px;
+  width: 75px;
+}
+
+.content {
+  background-color: yellow;
+  text-align: center;
+  padding-top: 125px;
+  padding-bottom: 50px;
+  min-height: 60vh;
+}
+
+.subsection {
+  background-color: limegreen;
+  padding-top: 50px;
+  margin: auto;
+  margin-bottom: 100px;
+  height: 100px;
+  width: 90%;
+}
+
+footer {
+  background-color: aquamarine;
+  text-align: center;
+  height: 300px;
+}
