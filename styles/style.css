@@ -2,7 +2,8 @@ html, body {
   width: 100%;
   margin: 0;
   min-height: 100vh;
-  background-color: gray;
+  color: whitesmoke;
+  background-color: black;
   font-family: 'Acme', sans-serif;
 }
 
@@ -16,6 +17,18 @@ a:hover {
   color: royalblue;
 }
 
+.navbar-brand {
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.card {
+  margin: 50px 10px;
+  border: solid rgb(15, 15, 15) 1px;
+}
+
+.card-body {
+  background-color: rgb(15, 15, 15);
+}
 
 .banner {
   padding-top: 40px;
@@ -77,10 +90,19 @@ a:hover {
   width: 90%;
 }
 
+.cards-can {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+  justify-content: space-around;
+}
+
 footer {
-  background-color: aquamarine;
+  background-color: rgb(15, 15, 15);
   text-align: center;
-  height: 300px;
+  min-height: 200px;
 }
 
 .banner-vid {
