@@ -13,17 +13,30 @@ a {
   font-size: 11pt;
 }
 
-a:hover {
-  color: royalblue;
-}
-
 .navbar-brand {
   font-family: 'Sedgwick Ave Display', cursive;
 }
 
+#carouselExampleCaptions .carousel-item img{
+  object-fit: cover;
+  object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}
+
 .card {
-  margin: 50px 10px;
+  margin: 30px 10px;
   border: solid #0c0c0c 1px;
+}
+
+.big-card {
+  width: 90%;
+  margin: 30px auto;
+  background-color: #202020;
+}
+
+.card-img-top {
+  height: 60%;
 }
 
 .card-body {
@@ -32,66 +45,6 @@ a:hover {
 
 .home-title {
   text-align: center;
-}
-
-.banner {
-  padding-top: 40px;
-  height: 300px;
-  text-align: center;
-  background-color: aqua;
-  font-family: 'Sedgwick Ave Display', cursive;
-}
-
-.options {
-  display: flex;
-  flex-wrap: wrap;
-  width: 80%;
-  margin: auto;
-  padding-bottom: 200px;
-  padding-top: 100px;
-  background-color: bisque;
-}
-
-.choice {
-  width: 40%;
-  height: 250px;
-  margin: 25px auto;
-  text-align: center;
-  background-color: purple;
-}
-
-.side-socials {
-  background-color: hotpink;
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  top: 375px;
-  left: 10px;
-}
-
-.social-tile {
-  background-color: maroon;
-  text-align: center;
-  margin: 10px 0px;
-  height: 75px;
-  width: 75px;
-}
-
-.content {
-  background-color: yellow;
-  text-align: center;
-  padding-top: 125px;
-  padding-bottom: 50px;
-  min-height: 60vh;
-}
-
-.subsection {
-  background-color: limegreen;
-  padding-top: 50px;
-  margin: auto;
-  margin-bottom: 100px;
-  height: 100px;
-  width: 90%;
 }
 
 .cards-can {
@@ -107,11 +60,28 @@ footer {
   background-color: #0c0c0c;
   text-align: center;
   min-height: 200px;
+  width: 100%;
 }
 
-.banner-vid {
-  width: 100%;
-  height: 100%;
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #888;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3b3b3b;
 }
 
 @media (min-width: 576px) {
