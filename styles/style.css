@@ -13,8 +13,19 @@ a {
   font-size: 11pt;
 }
 
+.navcan {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  top: 0;
+}
+
 .navbar-brand {
   font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.container-lg {
+  padding-top: 59px;
 }
 
 #carouselExampleCaptions .carousel-item img{
@@ -27,6 +38,7 @@ a {
 .card {
   margin: 30px 10px;
   border: solid #0c0c0c 1px;
+  background-color: #0c0c0c;
 }
 
 .big-card {
@@ -36,7 +48,7 @@ a {
 }
 
 .card-img-top {
-  height: 60%;
+  height: 52%;
 }
 
 .card-body {
@@ -45,6 +57,16 @@ a {
 
 .home-title {
   text-align: center;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.go-to-link {
+  text-align: right;
+  text-decoration: underline;
+  margin: 0;
 }
 
 .cards-can {
